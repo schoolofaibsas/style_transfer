@@ -1,12 +1,19 @@
-# Evento 5-10-2018 - Style Transfer
+# Style Transfer
 
 ## Objetivos
 
 Lograr capturar la esencia (o "contenido") de una imagen, para luego ser re-pintada utilizando un "estilo" capturado de otra imagen (o pintura).
 
+> NOTA: este ejercicio fue creado a partir del trabajo de Walid Ahmad. Pueden acceder al repo original:
+> https://github.com/walid0925/AI_Artistry
+
 ## Requerimientos
 
-Utilizar el contenedor Docker que hemos preparado.
+Utilizar el contenedor Docker que hemos preparado o utilizar el entorno anaconda y ejecutar el siguiente comando:
+
+```
+pip install --ignore-installed --user -r requirements.txt
+```
 
 ## Framework
 

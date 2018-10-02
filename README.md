@@ -12,6 +12,8 @@ Lograr capturar la esencia (o "contenido") de una imagen, para luego ser re-pint
 Utilizar el contenedor Docker que hemos preparado o utilizar el entorno anaconda y ejecutar el siguiente comando:
 
 ```
+python -m pip install --upgrade pip
+
 pip install --ignore-installed --user -r requirements.txt
 ```
 
@@ -20,7 +22,7 @@ pip install --ignore-installed --user -r requirements.txt
 Vamos a emplear el framework Keras para la ejecución del modelo.
 Utilizaremos una red neuronal entrenada: VGG-16.
 
-## Imagen Docker
+## SOLO PARA IMAGEN DOCKER:
 
 Para simplificar el trabajo, hemos creado una imagen docker en Docker Hub. Para ejecutarla debemos seguir los siguientes pasos:
 
@@ -32,7 +34,7 @@ Para simplificar el trabajo, hemos creado una imagen docker en Docker Hub. Para 
 
 A partir de aquí podrán seguir el Online Coding Session paso a paso.
 
-## Ejemplos
+## Ejemplos de Style Transfer
 
 ![Alt text](./examples/cubist_cat.png?raw=true "Cubist Cat")
 ![Alt text](./examples/starry_hall.jpg?raw=true "Starry Hall")

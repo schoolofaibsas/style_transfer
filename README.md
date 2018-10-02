@@ -12,6 +12,8 @@ Lograr capturar la esencia (o "contenido") de una imagen, para luego ser re-pint
 Utilizar el contenedor Docker que hemos preparado o utilizar el entorno anaconda y ejecutar el siguiente comando:
 
 ```
+python -m pip install --upgrade pip
+
 pip install --ignore-installed --user -r requirements.txt
 ```
 
